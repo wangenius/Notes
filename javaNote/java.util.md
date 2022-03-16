@@ -43,8 +43,8 @@ Calendar类是一个抽象类，在实际使用时实现特定的子类的对象
     //创建一个代表2009年6月12日的Calendar对象
     Calendar c1 = Calendar.getInstance();
     c1.set(2009, 6 - 1, 12);
-![avatar](/pic/calendar.png)
 
+![avatar](https://github.com/wangenius/Notes/tree/branches/javaNote/pic/calendar.png)
 
 ## Date
 
