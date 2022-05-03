@@ -44,7 +44,21 @@ Calendar类是一个抽象类，在实际使用时实现特定的子类的对象
     Calendar c1 = Calendar.getInstance();
     c1.set(2009, 6 - 1, 12);
 
-![avatar](https://github.com/wangenius/Notes/tree/branches/javaNote/pic/calendar.png)
+    Calendar c1 = Calendar.getInstance();
+    // 获得年份
+    int year = c1.get(Calendar.YEAR);
+    // 获得月份
+    int month = c1.get(Calendar.MONTH) + 1;
+    // 获得日期
+    int date = c1.get(Calendar.DATE);
+    // 获得小时
+    int hour = c1.get(Calendar.HOUR_OF_DAY);
+    // 获得分钟
+    int minute = c1.get(Calendar.MINUTE);
+    // 获得秒
+    int second = c1.get(Calendar.SECOND);
+    // 获得星期几（注意（这个与Date类是不同的）：1代表星期日、2代表星期1、3代表星期二，以此类推）
+    int day = c1.get(Calendar.DAY_OF_WEEK);
 
 ## Date
 
@@ -152,4 +166,61 @@ import java.util.*;
 
 ## Scanner
 
+通过 Scanner 类来获取用户的输入。
+
+下面是创建 Scanner 对象的基本语法：
+
+    import java.util.Scanner; 
+    public class ScannerDemo {  
+        public static void main(String[] args) {  
+            Scanner scan = new Scanner(System.in); 
+            // 从键盘接收数据  
+
+            //next方式接收字符串
+            System.out.println("next方式接收：");
+            // 判断是否还有输入
+            if(scan.hasNext()){   
+                String str1 = scan.next();
+                System.out.println("输入的数据为："+str1);  
+            }  
+
+        }  
+    } 
+
+next():  
+1、一定要读取到有效字符后才可以结束输入。
+2、对输入有效字符之前遇到的空白，next()方法会自动将其去掉。
+3、只有输入有效字符后才将其后面输入的空白作为分隔符或者结束符。
+next()不能得到带有空格的字符串。  
+nextLine()：  
+1、以Enter为结束符,也就是说nextLine()方法返回的是输入回车之前的所有字符。
+2、可以获得空白。
+
 ## Random
+
+## Regular Expression
+
+java.util.regex包主要包括以下三个类
+Pattern类：
+pattern对象是一个正则表达式的编译表示。Pattern类没有公共构造方法。要创建一个Pattern对象，你必须首先调用其公共静态编译方法，它返回一个Pattern对象。该方法接受一个正则表达式作为它的第一个参数。
+
+Matcher类：
+Matcher对象是对输入字符串进行解释和匹配操作的引擎。与Pattern类一样，Matcher也没有公共构造方法。你需要调用Pattern对象的matcher方法来获得一个Matcher对象。
+
+PatternSyntaxException：
+PatternSyntaxException是一个非强制异常类，它表示一个正则表达式模式中的语法错误。
+
+    import java.util.regex.*;
+    
+    class RegexExample1{
+        public static void main(String[] args){
+            String content = "I am noob " +
+                "from runoob.com.";
+        
+            String pattern = ".*runoob.*";
+        
+            boolean isMatch = Pattern.matches(pattern, content);
+            System.out.println("字符串中是否包含了 'runoob' 子字符串? " + isMatch);
+        }
+    }
+
