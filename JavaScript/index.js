@@ -7,7 +7,11 @@ document.getElementById("btn").addEventListener("click",()=>{
 
 function Re(){
     console.log(1);
-    console.log(d);
+    console.log("d");
+    console.log();
+    console.log();
+    length
+    console.log("btn");
 }
 
 Re

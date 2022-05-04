@@ -1,4 +1,3 @@
-<!-- ![图片]("static/path.jpg") -->
 # JavaScript learning guiding
 
 ## FrontEnd route
