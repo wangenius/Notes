@@ -22,7 +22,8 @@ This is my notebooks containing the programming and the architect or something o
 
 
 ### mobile applications:
-1. 
+
+
 
 
 ## 2. Architect
