@@ -4,7 +4,7 @@ This is my notebooks containing the programming and the architect or something o
 <wangenius@qq.com>
 ***
 
-## Application Resources
+## 1. Application Resources
 
 ### windows software:
 1. [powertoys](https://docs.microsoft.com/en-us/windows/powertoys/)
@@ -18,11 +18,25 @@ This is my notebooks containing the programming and the architect or something o
 > contains AutoCAD/Rhinoceros/T20/SketchUp etc
 
 9. [Adobe suite](https://pan.baidu.com/s/1cv6mg9ycFSinHnPoOzCgrA?pwd=3jek)
-
+> contains PS AI ID which I need
 
 
 ### mobile applications:
 1. 
 
 
-## Architect
+## 2. Architect
+案例搜集和工作流
+
+## 3. English
+IELTS考试准备
+
+## 4. JavaScript
+主要结合react框架学习
+1. [前端学习路线](/JavaScript/FrontEndRoute.md)
+2. [环境配置和框架搭建](/JavaScript/EnviConfig.md)
+
+
+## 5. python
+主要方向是rhinoPython 和 GHPython。
+1. [RhinoPython的配置](/Python/index.md)
