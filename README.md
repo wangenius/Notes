@@ -1,7 +1,7 @@
 # Index Explanation
 
-This is my notebooks containing the programming and the architect or something others.  
-<wangenius@qq.com>
+This is my notebooks containing the programming and the architect or something others
+<wangeniux@outlook.com> with spare <wangeniux@gmail.com>
 ***
 
 ## 1. Application Resources
@@ -12,20 +12,18 @@ This is my notebooks containing the programming and the architect or something o
 3. [HarmonyOS Sans](https://developer.harmonyos.com/cn/docs/design/des-guides/font-0000001157868583)
 4. [Visual Studio Code](https://code.visualstudio.com)
 5. [IDM](https://www.crackingcity.com/idm-crack/)  
-6. [Gatern](https://gatern.com/)
+6. [Gatern](https://gatern.github.io/)
 7. [哔哩](https://github.com/Richasy/Bili.Uwp)
-8. [Architecture Store](https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all)  
-
+8. [Architecture Store](https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all)
 
 > contains AutoCAD/Rhinoceros/T20/SketchUp etc
 
 9. [Adobe suite](https://pan.baidu.com/s/1cv6mg9ycFSinHnPoOzCgrA?pwd=3jek)
 > contains PS AI ID which I need
 
+writing notes
 
 ### mobile applications:
-
-
 
 
 ## 2. Architect
